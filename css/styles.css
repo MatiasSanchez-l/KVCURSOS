@@ -1,0 +1,143 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Montserrat,sans-serif;
+}
+
+body
+{
+    background-color: #fff;
+    color: #072f48;
+    font-size: 1.2rem;
+    line-height: 1.6em;
+}
+
+h1
+{
+    font-size: 2rem;
+    line-height: 1.3em;
+}
+
+p
+{
+    margin-bottom: 1.6em;
+}
+
+.container
+{
+    width: 85%;
+    max-width: 850px;
+    margin: 0 auto;
+}
+
+.header
+{
+    background-color: #fff;
+    border-bottom: 1px solid #e3e3e3;
+    padding: 2rem 0;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+}
+
+.logoHeader
+{
+    width: 12%;
+}
+
+.hamburguer-icon
+{
+    display: none;
+}
+
+.header a
+{
+    color: #6d6e71;
+    text-decoration: none;  
+}
+
+.logo-nav-container
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.navigation ul
+{
+    list-style: none;
+}
+
+.navigation ul li
+{
+    display: inline-block;
+}
+
+.navigation ul li a
+{
+    display: block;
+    padding: 0.1rem 1rem;
+}
+
+.navigation ul li a:hover
+{
+    border-bottom: 2px solid #e33942;
+    cursor: pointer;
+}
+
+.main
+{
+    padding-top: 16rem;
+}
+
+.footer
+{
+    background: #e9ecef;
+    padding: 3rem 0;
+    text-align: center;
+}
+
+@media only screen and (max-width: 767px)
+{
+.navigation
+{
+    width: 100%;
+    margin-top: 1rem;
+}
+
+.hamburguer-icon
+{
+    display: block;
+    cursor: pointer;
+}
+
+.navigation ul
+{
+    display: none;
+}
+
+.navigation ul.show
+{
+    display: block;
+}
+
+.navigation ul li
+{
+    display: block;
+}
+
+.navigation ul li a
+{
+    display: block;
+    padding: 0.1rem 0;
+}
+
+.navigation ul li a:hover
+{
+    border-bottom: 2px solid #e33942;
+}
+}
