@@ -181,6 +181,7 @@ header a
     width: 15%;
 }
 
+
 .navigation
 {
     width: 100%;
@@ -191,6 +192,16 @@ header a
 {
     display: block;
     cursor: pointer;
+}
+
+.hamburguer-icon img
+{
+   width: 3rem;
+}
+
+.header2 .hamburguer-icon img
+{
+   width: 2rem;
 }
 
 .navigation ul

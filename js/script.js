@@ -32,20 +32,23 @@ jQuery('document').ready(function($)
 window.addEventListener('load', () =>
 {
     let menuBtn = document.querySelector('.hamburguer-icon');
+    let menuBtnIcon = document.querySelector('.hamburguer-icon img');
     let menu = document.querySelector('.navigation ul');
-    let mainSection = document.querySelector('.main');
-    let headerSection = document.getElementsByTagName('header');
+
 
     menuBtn.addEventListener('click', () =>
     {
         if(menu.classList.contains('show'))
         {
             menu.classList.remove('show');
+            menuBtnIcon.setAttribute('src', 'img/ico/hamburger-icon.ico');
         }
         else
         {
             menu.classList.add('show');
+            menuBtnIcon.setAttribute('src', 'img/ico/x-icon.ico');
         }
     });
+
 });
 
