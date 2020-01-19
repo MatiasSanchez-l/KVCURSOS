@@ -3,7 +3,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: Montserrat,sans-serif;
 }
 
 body
@@ -12,6 +11,9 @@ body
     color: #072f48;
     font-size: 1.2rem;
     line-height: 1.6em;
+    font-family: Montserrat,sans-serif;
+    font-weight: 400;
+    line-height: 1.2;
 }
 
 h1
@@ -36,7 +38,7 @@ p
 {
     background-color: #fff;
     border-bottom: 1px solid #e3e3e3;
-    padding: 2rem 0;
+    padding: 1.8rem 3.1rem;
     position: fixed;
     left: 0;
     top: 0;
@@ -45,7 +47,7 @@ p
 
 .logoHeader
 {
-    width: 12%;
+    width: 8%;
 }
 
 .hamburguer-icon
@@ -72,9 +74,19 @@ p
     list-style: none;
 }
 
-.navigation ul li
+.nav-item
 {
     display: inline-block;
+}
+
+.current
+{
+    border-bottom: 2px solid #e33942;
+}
+
+.nav-item:hover
+{
+    border-bottom: 2px solid #e33942;
 }
 
 .navigation ul li a
@@ -85,13 +97,26 @@ p
 
 .navigation ul li a:hover
 {
-    border-bottom: 2px solid #e33942;
     cursor: pointer;
 }
 
 .main
 {
     padding-top: 16rem;
+}
+
+.main-title
+{
+    font-size: 3.375rem;
+    line-height: 1.2;
+    margin-bottom: 35px;
+    color: #e33942;
+}
+
+.main-title-description
+{
+    font-weight: 300;
+    font-size: 1.25em;
 }
 
 .footer
@@ -103,6 +128,11 @@ p
 
 @media only screen and (max-width: 767px)
 {
+.logoHeader
+{
+    width: 15%;
+}
+
 .navigation
 {
     width: 100%;
@@ -136,8 +166,4 @@ p
     padding: 0.1rem 0;
 }
 
-.navigation ul li a:hover
-{
-    border-bottom: 2px solid #e33942;
-}
 }
