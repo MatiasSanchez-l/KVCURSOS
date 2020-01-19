@@ -1,6 +1,6 @@
-/*jQuery('document').ready(function($)
+jQuery('document').ready(function($)
 {
-    var menuBtn= $('.hamburguer-icon');
+    /*var menuBtn= $('.hamburguer-icon');
     var menu = $('.navigation ul');
 
     menuBtn.click(function()
@@ -13,14 +13,28 @@
         {
             menu.addClass('show');
         }
+    });*/
+
+    $(window).scroll(function()
+    {
+        if($(this).scrollTop() > 0)
+        {
+            $('header').addClass('header2');
+        }
+        else
+        {
+            $('header').removeClass('header2');
+        }
     });
 
-});*/
+});
 
 window.addEventListener('load', () =>
 {
     let menuBtn = document.querySelector('.hamburguer-icon');
     let menu = document.querySelector('.navigation ul');
+    let mainSection = document.querySelector('.main');
+    let headerSection = document.getElementsByTagName('header');
 
     menuBtn.addEventListener('click', () =>
     {

@@ -30,11 +30,11 @@ p
 .container
 {
     width: 85%;
-    max-width: 850px;
+    max-width: 970px;
     margin: 0 auto;
 }
 
-.header
+header
 {
     background-color: #fff;
     border-bottom: 1px solid #e3e3e3;
@@ -45,9 +45,20 @@ p
     width: 100%;
 }
 
+.header2
+{
+    border-bottom: 1px solid #c4c4c4;
+    padding: 1rem 3.1rem;
+}
+
 .logoHeader
 {
     width: 8%;
+}
+
+.header2 .logoHeader
+{
+    width: 5%;
 }
 
 .hamburguer-icon
@@ -55,7 +66,7 @@ p
     display: none;
 }
 
-.header a
+header a
 {
     color: #6d6e71;
     text-decoration: none;  
@@ -102,7 +113,7 @@ p
 
 .main
 {
-    padding-top: 16rem;
+    padding-top: 17rem;
 }
 
 .main-title
@@ -124,6 +135,43 @@ p
     background: #e9ecef;
     padding: 3rem 0;
     text-align: center;
+}
+
+.footer-social
+{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 2rem 0;
+    margin-bottom: 2rem;
+    border-bottom: 1px solid #072f4856;
+}
+
+.footer-social a
+{
+    width: 5%;
+}
+
+.footer-social a img
+{
+    width: 100%;
+}
+
+.footer-dev-info
+{
+    color: #000;
+    font-size: 0.9em;
+    margin-top: 9rem;
+}
+
+.footer-dev-info p a
+{
+    text-decoration: none;
+}
+
+.footer-dev-info p a:hover
+{
+    color: #e33942;
+    text-decoration: underline;
 }
 
 @media only screen and (max-width: 767px)
