@@ -1,4 +1,5 @@
 *.jpeg
+!img1.jpeg
 *.aep
 *.mp3
 *.mov
