@@ -3,5 +3,9 @@
 *.aep
 *.mp3
 *.mov
+*.veg
+*.veg.bak
+*.avi
+*.sfk
 prueba1.aep Logs/
 prueba3.aep Logs/
