@@ -379,39 +379,6 @@ header a
 
 }
 
-/*@media screen and (min-width:47em)
-{
-    .header2
-    {
-        border: 1px solid red;
-    }
-}
-
-@media screen and (min-width:60em)
-{
-    .header2
-    {
-        border: 1px solid green;
-    }
-}
-
-
-@media screen and (min-width:70em)
-{
-    .header2
-    {
-        border: 1px solid goldenrod;
-    }
-}
-
-@media only screen and (max-width: 320px)
-{
-    .header2
-    {
-        border: 1px solid firebrick;
-    }
-}*/
-
 @media (max-width: 640px)
 {
     .main-title
